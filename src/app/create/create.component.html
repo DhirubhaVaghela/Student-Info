@@ -1,0 +1,29 @@
+<div>
+  <br>
+  <mat-card>
+    <section class="mat-typography">
+      <h3>Add New Student Data</h3>
+    </section>
+    <mat-divider></mat-divider>
+    <br>
+    <form [formGroup]="createStudentForm" class="create-form">
+      <mat-form-field class="field-full-width">
+        <input matInput placeholder="Enter First Name" formControlName="name" #name>
+      </mat-form-field><br>
+      <mat-form-field class="field-full-width">
+        <input matInput placeholder="Enter Mobile Number" formControlName="mobile" #mobile>
+      </mat-form-field><br>
+      <mat-form-field class="field-full-width">
+        <input matInput placeholder="Enter Email Address" formControlName="email" #email>
+      </mat-form-field><br>
+      <mat-form-field class="field-full-width">
+        <input matInput placeholder="Enter City" formControlName="city" #city>
+      </mat-form-field><br>
+    
+      <mat-divider></mat-divider>
+      <br><br>
+      <button mat-raised-button color="accent" routerLink="/list">Back</button>
+      <button type="submit" (click)="createStudentData(name.value,mobile.value,email.value,city.value)"   mat-raised-button color="primary">Create</button>
+    </form>
+  </mat-card>
+</div>

@@ -1,0 +1,33 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Dhirubha",
+      "mobile": "9909262554",
+      "email": "ce.vaghela@gmail.com",
+      "city": "gandhinagar"
+    },
+    {
+      "id": 2,
+      "name": "paresh",
+      "mobile": "9876543210",
+      "email": "paresh@gmail.com",
+      "city": "patan"
+    },
+    {
+      "id": 3,
+      "name": "dinesh",
+      "mobile": "8527419630",
+      "email": "dinesh@gmail.com",
+      "city": "ahmedabad"
+    },
+    {
+      "id": 4,
+      "name": "rakesh",
+      "mobile": "7418529630",
+      "email": "rakesh@gmail.com",
+      "city": "bhuj"
+    }
+   
+  ]
+}
